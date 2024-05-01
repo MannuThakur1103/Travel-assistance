@@ -1,0 +1,63 @@
+li {
+  list-style: none;
+}
+
+.item {
+  height: 20rem;
+  box-sizing: border-box;
+  background-color: rgb(211, 219, 227);
+  border-radius: 20px;
+  position: relative;
+  box-shadow:4px 4px 0px rgba(66, 73, 75, 0.15);
+}
+
+.image {
+  background-color: rgb(136, 136, 136);
+  width: 100%;
+  height: 10rem;
+  position: absolute;
+  top: 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  overflow: hidden;
+}
+
+.image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.backdrop {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.15);
+  width: 100%;
+  height: 10rem;
+}
+
+.content {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10rem;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.restButton {
+  width: 6rem;
+  height: 3rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  border: 1px solid rgb(76, 97, 97);
+}
+
+.restButton:hover {
+  background-color: rgb(196, 212, 216);
+}
+
+.restButton:focus {
+  outline: none;
+  background-color: rgb(196, 212, 216);  
+}
+
